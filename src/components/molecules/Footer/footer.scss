@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #67b45c;
+    padding: 20px 40px;
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    .sosmed-wrapper {
+        display: flex;
+
+        .icon-wrapper {
+            background-color: white;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 0px 10px;
+
+            .icon-medsos {
+                width: 25px;
+                height: 25px;
+                object-fit: contain;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: #569e4b;
+    padding: 10px 0px;
+
+    p {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        margin: 0px;
+    }
+}
